@@ -1,0 +1,42 @@
+{{define "create"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Golantha - Connexion</title>
+	<link rel="stylesheet" type="text/css" href="../assets/style/connexion.css">
+</head>
+<body>
+	<header>
+		
+	</header>
+	<div class="All_choice">
+		<div class="connect">
+			<h2>Connexion</h2>
+		</div>
+		<div class="form">
+			<form action="/" method="post">
+				<div class="nom">
+					<label for="name">Nom :</label>
+					<input type="text" name="name" id="name">
+				</div>
+				<div class="sexe">
+					<label for="sex">Sexe :</label>
+					<input type="radio" name="sexe"><p>Homme</p>
+					<input type="radio" name="sexe"><p>Femme</p>
+				</div>
+				<div class="style_gameplay">
+					<label for="style_gameplay">Style de jeu :</label>
+					<input type="radio" name="style_gameplay"><p>Stratège</p>
+					<input type="radio" name="style_gameplay"><p>Survivaliste</p>
+					<input type="radio" name="style_gameplay"><p>Sportive</p>
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
+{{end}}
